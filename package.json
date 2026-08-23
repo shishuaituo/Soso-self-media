@@ -1,0 +1,16 @@
+{
+  "name": "soso-self-media",
+  "version": "1.0.0",
+  "description": "家居建材自媒体运营 Skill - 聚焦全屋定制/板材赛道",
+  "bin": {
+    "soso-self-media": "./install.js"
+  },
+  "scripts": {
+    "install": "node install.js"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shishuaituo/Soso-self-media"
+  }
+}

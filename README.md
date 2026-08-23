@@ -27,21 +27,33 @@
 
 ## 快速开始
 
-### 一键安装
+### 安装
 
-复制以下指令，粘贴到 TRAE / Vibo Coding 对话框中发送即可自动安装：
+**方式一：npx 一键安装（推荐）**
+
+在终端中运行：
+
+```bash
+npx github:shishuaituo/Soso-self-media
+```
+
+脚本会自动下载所有文件并安装到 TRAE skills 目录。安装完成后打开 TRAE / Vibo Coding 新开对话即可使用。
+
+**方式二：对话指令安装**
+
+复制以下指令，粘贴到 TRAE / Vibo Coding 对话框中发送：
 
 ```
-请安装 Soso-self-media Skill，从 GitHub 仓库 https://github.com/shishuaituo/Soso-self-media 获取 SKILL.md 及相关文件，安装到 .trae/skills/Soso-self-media/ 目录下。安装完成后提示我进行首次配置。
+请安装 Soso-self-media Skill，从 GitHub 仓库 https://github.com/shishuaituo/Soso-self-media 获取 SKILL.md 及相关文件，安装到 .trae-cn/skills/Soso-self-media/ 目录下。安装完成后提示我进行首次配置。
 ```
 
 <details>
-<summary>手动安装（备选）</summary>
+<summary>方式三：手动安装（备选）</summary>
 
 将 `Soso-self-media` 文件夹放入你的 TRAE skills 目录：
 
 ```
-.trae/skills/Soso-self-media/SKILL.md
+.trae-cn/skills/Soso-self-media/SKILL.md
 ```
 
 </details>
@@ -72,6 +84,8 @@
 Soso-self-media/
 ├── SKILL.md              # Skill 主文件（TRAE 加载入口）
 ├── README.md             # 项目说明（当前文件）
+├── package.json          # npx 安装配置
+├── install.js            # npx 安装脚本
 └── docs/
     ├── 01-视频方法论分析.md      # 视频方法论拆解
     ├── 02-MCP能力分析与映射.md   # Firefly API 能力梳理
