@@ -15,6 +15,12 @@ const FILES = [
   { src: 'docs/02-MCP能力分析与映射.md', dest: 'docs/02-MCP能力分析与映射.md' },
   { src: 'docs/03-Skill架构设计.md', dest: 'docs/03-Skill架构设计.md' },
   { src: 'docs/04-端到端工作流测试报告.md', dest: 'docs/04-端到端工作流测试报告.md' },
+  { src: 'archive/README.md', dest: 'archive/README.md' },
+  { src: 'archive/knowledge/hooks.md', dest: 'archive/knowledge/hooks.md' },
+  { src: 'archive/knowledge/structures.md', dest: 'archive/knowledge/structures.md' },
+  { src: 'archive/knowledge/quotes.md', dest: 'archive/knowledge/quotes.md' },
+  { src: 'archive/knowledge/topics-trends.md', dest: 'archive/knowledge/topics-trends.md' },
+  { src: 'archive/knowledge/insights.md', dest: 'archive/knowledge/insights.md' },
 ];
 
 function getTraeSkillsDir() {
