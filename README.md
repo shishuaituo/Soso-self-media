@@ -27,13 +27,24 @@
 
 ## 快速开始
 
-### 安装
+### 一键安装
+
+复制以下指令，粘贴到 TRAE / Vibo Coding 对话框中发送即可自动安装：
+
+```
+请安装 Soso-self-media Skill，从 GitHub 仓库 https://github.com/shishuaituo/Soso-self-media 获取 SKILL.md 及相关文件，安装到 .trae/skills/Soso-self-media/ 目录下。安装完成后提示我进行首次配置。
+```
+
+<details>
+<summary>手动安装（备选）</summary>
 
 将 `Soso-self-media` 文件夹放入你的 TRAE skills 目录：
 
 ```
 .trae/skills/Soso-self-media/SKILL.md
 ```
+
+</details>
 
 ### 首次使用
 
