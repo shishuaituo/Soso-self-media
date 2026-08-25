@@ -25,6 +25,12 @@ const FILES = [
 
 function getTraeSkillsDir() {
   const home = os.homedir();
+  const platform = os.platform();
+  if (platform === 'win32') {
+    return path.join(home, '.trae-cn', 'skills');
+  } else if (platform === 'darwin') {
+    return path.join(home, '.trae-cn', 'skills');
+  }
   return path.join(home, '.trae-cn', 'skills');
 }
 
